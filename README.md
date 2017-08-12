@@ -10,7 +10,7 @@ NavigationService.LoadView(new SplashScreanPage(), new MenuGrid());
  
   -> SplashScreanPage : ContentPage
   -> MenuGrid         : Grid ( Navigation Menu )
-  
+  <img src="" width="256"/>
   
 ### To Navigate to Any Page ( ActionBar:Hidden )
    
