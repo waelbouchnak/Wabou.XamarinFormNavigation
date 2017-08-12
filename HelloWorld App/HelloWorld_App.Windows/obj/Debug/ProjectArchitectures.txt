@@ -1,0 +1,3 @@
+C:\Users\ASUS_2\documents\visual studio 2015\Projects\HelloWorld App\HelloWorld App\HelloWorld_App.Windows\HelloWorld_App.Windows.csproj;neutral
+C:\Users\ASUS_2\documents\visual studio 2015\Projects\HelloWorld App\HelloWorld App\HelloWorld_App\HelloWorld_App.csproj;neutral
+C:\Users\ASUS_2\documents\visual studio 2015\Projects\HelloWorld App\Wabou\Wabou.csproj;neutral

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld_App.Views.MenuGrid" 
+             BackgroundColor="Transparent" >
+  <Grid.RowDefinitions>
+    <RowDefinition Height="200" />
+    <RowDefinition Height="*" />
+  </Grid.RowDefinitions>
+  <Grid >
+    <Image Source="bg.png" Aspect="AspectFill"   />
+    <StackLayout Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+      <Image Source="D.png"   HorizontalOptions="Center" Aspect="AspectFit"  WidthRequest="85" HeightRequest="85" />
+       
+      <Label Text="Wael Bouchnak" TextColor="White" FontSize="Large" />
+    </StackLayout>
+  </Grid>
+  <StackLayout Margin="20,20,20,0" Grid.Row="1" Spacing="15">
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+       <Label Text="Home" x:Name="HomeLabel" Grid.Column="1" TextColor="Black"/>
+    </Grid>
+    <ContentView HeightRequest="1" BackgroundColor="Gray" />
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Label Text="Search for a user"  x:Name="SearchForuserLabel" Grid.Column="1"  TextColor="Black" />
+    </Grid>
+    <ContentView HeightRequest="1" BackgroundColor="Gray" />
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+       <Label Text="Settings" x:Name="SettingsLabel" Grid.Column="1"  TextColor="Black"/>
+    </Grid>
+    <ContentView HeightRequest="1" BackgroundColor="Gray" />
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+       <Label Text="Logout" x:Name="LogoutLabel"  Grid.Column="1"  TextColor="Black" />
+    </Grid>
+  </StackLayout>
+</Grid>
