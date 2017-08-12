@@ -2,7 +2,7 @@
 
 
 
-### Load Your SplashScreanPage for Example From app.cs 
+### Load Your First Page From app.cs ( SplashScreanPage for Example )  ( ActionBar:Hidden )
 
 ```
 NavigationService.LoadView(new SplashScreanPage(), new MenuGrid());
